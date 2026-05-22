@@ -254,7 +254,7 @@
         } else {
           const errData = await res.json().catch(() => ({}));
           if (errData.error === 'KV Namespace not bound') {
-            showMsg(saveMsg, 'error', 'Cloudflare-এ MUSAVAI_CONFIG নামে KV Namespace যুক্ত করা হয়নি!');
+            showMsg(saveMsg, 'error', 'Cloudflare-এ MUSAA_CONFIG নামে KV Namespace যুক্ত করা হয়নি!');
           } else {
             showMsg(saveMsg, 'error', 'সেভ করতে সমস্যা হয়েছে: ' + (errData.error || 'অজানা এরর'));
           }
