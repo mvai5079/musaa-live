@@ -1,5 +1,5 @@
 /* ============================================
-   Musaa.live — script.js
+   Musavai.live — script.js
    ============================================ */
 
 document.addEventListener('DOMContentLoaded', function () {
