@@ -430,8 +430,13 @@ main {
 
 /* WhatsApp */
 .btn-whatsapp {
-  background: #ccff00;
+  background: #25D366;
+  color: #ffffff;
   animation: fade-up 0.4s 0.2s ease both;
+}
+
+.btn-whatsapp .btn-icon-wrap {
+  background: #ffffff;
 }
 
 .btn-whatsapp .btn-icon-wrap svg {
@@ -442,8 +447,13 @@ main {
 
 /* Facebook */
 .btn-facebook {
-  background: #ccff00;
+  background: #1877F2;
+  color: #ffffff;
   animation: fade-up 0.4s 0.3s ease both;
+}
+
+.btn-facebook .btn-icon-wrap {
+  background: #ffffff;
 }
 
 .btn-facebook .btn-icon-wrap svg {
