@@ -24,8 +24,8 @@ export async function onRequest(context) {
 
     // Return the current config
     let config = {
-      whatsappNumber: "917002348869",
-      messengerLink: "https://m.me/irfanishonirob27293133"
+      whatsappNumber: "916382583846",
+      messengerLink: "https://www.facebook.com/170687"
     };
 
     try {
